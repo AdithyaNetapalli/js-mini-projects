@@ -18,4 +18,14 @@ for (let i = 0; i < 5; i++) {
   if (Boolean(users[i].name) === false) {
     users[i].name = "unknown";
   }
+  if (
+    users[i].age >= settings.minAge &&
+    users[i].age <= settings.maxAge &&
+    users[i].marks >= 60
+  ) {
+    users[i].eligible = true;
+  } else {
+    users[i].eligible = false;
+  }
+  console.log(users[i]);
 }
