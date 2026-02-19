@@ -24,8 +24,12 @@ for (let i = 0; i < 5; i++) {
     users[i].marks >= 60
   ) {
     users[i].eligible = true;
+    if (users[i].eligible === true) {
+      count++;
+    }
   } else {
     users[i].eligible = false;
   }
   console.log(users[i]);
 }
+console.log(`No of elgible users : ${count}`);
