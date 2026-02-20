@@ -31,5 +31,8 @@ for (let i = 0; i < 5; i++) {
     users[i].eligible = false;
   }
   console.log(users[i]);
+  average += users[i].marks;
 }
+average = average / 5;
+console.log(`Average Marks : ${average}`);
 console.log(`No of elgible users : ${count}`);

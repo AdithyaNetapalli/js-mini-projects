@@ -33,6 +33,7 @@ The program analyzes a list of users and performs validation and eligibility che
 3. Added a new `eligible` boolean property to each user
 4. Printed updated user objects in console
 5. Calculated total number of eligible users
+6. Calculated Avarage marks of the Students
 
 ---
 
